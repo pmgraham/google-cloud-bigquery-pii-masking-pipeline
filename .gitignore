@@ -1,0 +1,40 @@
+# Claude Code local settings
+.claude/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Lock files
+uv.lock
+
+# Auto-generated for Dataflow (from pyproject.toml)
+requirements.txt
